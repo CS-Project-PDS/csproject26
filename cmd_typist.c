@@ -539,7 +539,6 @@ void main_play(int argc_cmd,int *lesson_choice)
 	}
 }
 
-
 /*Wrong letters algorithm:
 if a user is at the first position of the line and presses backspace, then, that backspace is simply cleared and i not incremented
 the array error_store[] keeps track of the index(the i position of the wrong character) and increments a counter variable j, which which be used as 

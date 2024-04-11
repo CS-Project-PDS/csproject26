@@ -1,13 +1,5 @@
 //display.h:name and session display
 
-/*
-Program title: CMDTYPIST
-Author: Chiatiah Calson
-License: GPL 3 or later versions
-Date and Time: 5 July 2017 @ 10:40PM
-Program Size: 2.8
-*/
-
 /*implementing a function to display the 
 name of the program.*/
 extern void name_display(void)

@@ -1,13 +1,5 @@
 //functions_for_cmd_typist.h: Contains all function prototypes, constants and global variables.
 
-/*
-Program title: CMDTYPIST
-Author: Chiatiah Calson
-License: GPL 3 or later versions
-Date and Time: 5 July 2017 @ 10:40PM
-Program Size: 2.8
-*/
-
 char get_only_char();
 char time_set=0;
 char file_to_read[19];//name of lesson file to read from
@@ -90,16 +82,3 @@ int avg_speed;//average typing speed.
 char user_name[SIZE_NAME];//holds the name of the user.
 char user_info[360]; //string to store user details.
 char temp_name[360];//temporary store for user name
-
-
-
-
-
-
-
-
-
-
-
-
-

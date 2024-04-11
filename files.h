@@ -1,11 +1,4 @@
 //files.h: file manipulations
-/*
-Program title: CMDTYPIST
-Author: Chiatiah Calson
-License: GPL 3 or later versions
-Date and Time: 5 July 2017 @ 10:40PM
-Program Size: 2.8
-*/
 
 void test_new_user(char *name)//used to create new user name
 {

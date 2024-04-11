@@ -1,13 +1,5 @@
 //config.h: Configuration settings
 
-/*
-Program title: CMDTYPIST
-Author: Chiatiah Calson
-License: GPL 3 or later versions
-Date and Time: 5 July 2017 @ 10:40PM
-Program Size: 2.8 
-*/
-
 //0=message config, 1=mode config, 2=block confi , 3=sound config, 4: user text config
 extern char read_myown_config(void)//num_value is used to record settings for random and standard play
 {

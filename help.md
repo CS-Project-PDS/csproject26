@@ -3,20 +3,19 @@ HELP COMMANDS
 
 0) select "lesson-number":
    ---------------------
-where lesson-number is a valid cmdtypist lesson number. This command is run at the cmdtypist prompt.
-Exampe: Enter command >>select 8, select is the command and 8 is a valid lesson number.
+ When you're at the cmdtypist prompt, type 'select' followed by a valid lesson number to execute the command. For instance, you can input 'select 8' where 'select' is the command and '8' represents a lesson number.
 
 1) cmdtypist mkuser "username":
    --------------------------
-Creates a new user and stores username in the user_speed text file. Running this command erases current name in user_speed file. This command must be run by first time cmdtypist users. This command is mandatory once for every first time user. Running other commands for the first time without running this command will show and error message mandating this command. Running this command when a user name already exist deletes the current user to the new user name specified as second argument. If you want to preserve saved data in the user_speed file, then copy and paste in a different directory or rename it.
+ To create a new user and save the username in the 'user_speed' text file, use this command. It's required for first-time cmdtypist users. Running this command will overwrite any existing username in the 'user_speed' file. If a username already exists, running this command will replace it with the new username provided as the second argument. If you wish to keep the existing data in the 'user_speed' file, make sure to copy it to another directory or rename it before running this command.
 
 2) cmtypist ls:
    -----------   
-List available lessons for typing. Whenever the lessons are listed, the command select "lesson number" has to be followed to select lesson.
+To view the available typing lessons, use the command 'list lessons'. After listing the lessons, follow up with the command 'select' followed by the lesson number to choose a specific lesson..
 
 3) cmtypist --help: 
   ----------------
-  Use this command if you find any difficulty. It display every help a user will need before and while using cmtypist.
+  If you encounter any challenges, utilize this command. It provides comprehensive assistance to users both before and during their use of cmdtypist, covering all necessary help topics
 
 4) cmtypist man:
    ------------
