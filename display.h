@@ -1,7 +1,4 @@
-//display.h:name and session display
-
-/*implementing a function to display the 
-name of the program.*/
+//Display 
 extern void name_display(void)
 {
 	system("clear");
@@ -13,7 +10,7 @@ extern void name_display(void)
     printf("\t\t%s  %s  %s %s","**", "      **   **   **",  "**    **",     "\t     **\n");
     printf("\t\t%s  %s  %s%s","|*******", "|*   **   *|", "|*******",       "\t     **\n");
     printf("\t\t%s  %s  %s%s","+*******", "+*        *+", "+******",        "\t             ++\n");
-    printf("\n\n%s\n\n", "                    cmd typist: Where programmers type!!!");
+    printf("\n\n%s\n\n", "       Command Typist: Practice typing directly on your terminal!");
     sleepf(1);
 }
 
