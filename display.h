@@ -75,7 +75,7 @@ extern void lesson_list(void)
 					printf("%s\n", ":: Feel free to use backspace key to erase wrongly typed letters");
 					break;				
 				case 12:
-					printf("%s\n", ":: Paste your own lesosn in myown.txt in program directory and type");
+					printf("%s\n", ":: Paste your own lessons in myown.txt in program directory and type");
 					break;
 				case 13:
 					printf("%s",":: You will only get better if you type more\n" );
