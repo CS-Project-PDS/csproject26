@@ -2,16 +2,22 @@
 extern void name_display(void)
 {
 	system("clear");
-	printf("\n\n\n\t\t%s  %s  %s   %s","+*******", "+**********+", "+****",       "\t+**********+\n");
-    printf("\t\t%s  %s  %s %s","|*******", "|**********|", "|***+*",        " \t|**********|\n");
-    printf("\t\t%s  %s  %s %s","**", "      **   **   **",  "**   **",      "\t     **\n");
-    printf("\t\t%s  %s  %s %s","**", "      **   **   **",  "**    **",     "\t     **\n");
-    printf("\t\t%s  %s  %s %s","**", "      **   **   **",  "**    **",     "\t     **\n");
-    printf("\t\t%s  %s  %s %s","**", "      **   **   **",  "**    **",     "\t     **\n");
-    printf("\t\t%s  %s  %s%s","|*******", "|*   **   *|", "|*******",       "\t     **\n");
-    printf("\t\t%s  %s  %s%s","+*******", "+*        *+", "+******",        "\t             ++\n");
-    printf("\n\n%s\n\n", "       Command Typist: Practice typing directly on your terminal!");
-    sleepf(1);
+	printf("\n\n\n\t\t\t\t\t\t\t\t\t%s %s\n", "**********", "**********");
+    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**********", "**********");
+    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**", "**");
+    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**", "**");
+    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**", "**");
+    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**", "**");
+    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**", "**");
+    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**", "**");
+    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**********", "**********");
+    printf("\t\t\t\t\t\t\t\t\t%s %s\n\n\n", "**********", "**********");
+
+    // Printing additional text aligned to the center
+    printf("\t\t\t\t\t\t\t\t\t\t%s\n", "Command Typist");
+    printf("\t\t\t\t\t\t%s\n", "Practice typing directly on your terminal!");
+    printf("\t\t\t\t\t\t\t\t\t%s\n", "CS Project PDS Group 26");
+    sleepf(2);
 }
 
 extern short guess(int min, int max)
@@ -24,11 +30,11 @@ extern void lesson_list(void)
 	{
 		unsigned short n = guess(22,0);
 		system("clear");
-		puts("LESSONS, use command <select 'lesson number' to make a choice: "
+		puts("LESSONS: Use command <select 'lesson number'> to make a choice: "
 			"\n1:  Beginner lessons"
 			"\n2:  Shell programming"
 			"\n3:  Linux commands"
-			"\n4:  Cmd commands"
+			"\n4:  CMD commands"
 			"\n5:  Learning numbers"
 			"\n6:  Noslac's notes in computing"
 			"\n7:  History of Cameroon"
@@ -40,7 +46,7 @@ extern void lesson_list(void)
 			"\n13: Random word typing"
 			"\n14: Capital letter training"
 			"\n15: Mixed lessons");
-		printf(""TIP_COLOR"");
+		printf(""TIP_COLOR"");	//Randomized tip to the user, coloured
 			switch(n)
 			{
 				case 1:
@@ -113,8 +119,7 @@ extern void lesson_list(void)
 		printf(""RESET"");	
 	}
 
-
-//modifies the manner in which sesson speed is displayed
+//Modifies the manner in which sesson speed is displayed
 //5 is the accepted average number of letters in a word	
 void session_style(unsigned int session_time,int wrongly_typed,float typed)
 {
@@ -135,16 +140,15 @@ void session_style(unsigned int session_time,int wrongly_typed,float typed)
 	}
 	raw_speed= ((float) typed*60.0f)/(float)session_time;
 	adj_speed= (float) ((typed-wrongly_typed)*60.0f)/(float)session_time;
-	char time_conversion[36];//stores converted time by seconds_hms()
+	char time_conversion[36];	//Stores converted time by seconds_hms()
 	system("clear");
 	printf(""RESET"\n%s\n", "For better speed follow up, consult \"user_speed.info\" file in speed directory");
 	puts("-------------------------------+-----------+------------------------------------");
-	puts("-------------------------------SESSION SPEED------------------------------------");//printing session heading
+	puts("-------------------------------SESSION SPEED------------------------------------");	//Printing session heading
 	puts("-------------------------------+-----------+------------------------------------");
 	printf("**************                                                     *************\n");
-	fprintf(stdout, "\t+----------------- %s --------------------+\n", time_nw);//printing date and time when the test is done
+	fprintf(stdout, "\t+----------------- %s --------------------+\n", time_nw);	//printing date and time when the test is done
 	seconds_to_hms(session_time,time_conversion);
-	//fprintf(fp, "\t|%d%s TIME: %s\n",wrongly_typed,(wrongly_typed==0)? "(NO Error)":(wrongly_typed==1)? "ERROR":"ERRORS",time_conversion);
 	raw_speed= ((float) typed*60.0f)/(float)session_time;
 	adj_speed= (float) ((typed-wrongly_typed)*60.0)/(float)session_time;		
 	fprintf(stdout, "\t|ERROR(s):"RED"%u"RESET" TIME: "SPEED_COLOR"%s"RESET" Accuracy: "SPEED_COLOR"%.2f%%"RESET"\n",wrongly_typed,time_conversion,(adj_speed/raw_speed)*100.0f);

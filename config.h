@@ -1,6 +1,5 @@
 //config.h: Configuration settings
 
-//0=message config, 1=mode config, 2=block confi , 3=sound config, 4: user text config
 extern char read_myown_config(void)//num_value is used to record settings for random and standard play
 {
 	char num_value;
