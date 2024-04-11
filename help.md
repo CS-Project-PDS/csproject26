@@ -27,14 +27,15 @@ HELP COMMANDS
 
 6) cmdtypist sound: 
    ---------------
-Use this command to toggle the beep sound on or off for incorrect character presses in cmdtypist:
+ Use this command to toggle the beep sound on or off for incorrect character presses in cmdtypist:
 
-- To activate the beep sound, use the command 'cmdtypist sound --on'.
-- To deactivate the beep sound, use the command 'cmdtypist sound --off'.
+ - To activate the beep sound, use the command 'cmdtypist sound --on'.
+ - To deactivate the beep sound, use the command 'cmdtypist sound --off'.
 
 7) cmdtypist /myown: 
    ----------------
  This command opens the user's text file in standard mode for typing. The text file should only contain ASCII 7-bit characters. The program will ignore any extended characters, so there might be differences between the characters in the user's text and the lesson being typed.
+
 8) cmtypist cchl: 
    -------------
  This command resets the current lesson file to the default one that was included with the program. If the default file is missing or corrupted, an error message will be displayed.
