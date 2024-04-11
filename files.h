@@ -4,7 +4,6 @@ void test_new_user(char *name)//used to create new user name
 {
 	if(first_time()!=0)//if a user exist
 	{
-		//char ch='z';//setting a value so that the value initialized by default is never y or n
 		printf("\nWARNING: All saved data will be erased <copy and save user_speed.info file if you would need it in future>\n"
 			"Do you want to continue: [y/n]:");
 		if(get_only_char()=='n')
