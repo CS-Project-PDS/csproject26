@@ -31,25 +31,3 @@ The above instructions have been tested on ubuntu 14.04 LTS and ubuntu 16.04 LTS
 
 If running cmdtypist produces a "Fatal error: some files are missing" error,
 then you probably did not place all cmdtypist files in the same directory.
-
-UNINSTALL
----------
-
-If you are having problems with cmdtypist configurations, you can run the 
-command
-	
-		cmdtypist reset raw
-
-to reset settings to default. But if you want to permanently uninstall cmdtypist, 
-proceed below.
-
-To uninstall cmdtypist, open a terminal and cd into directory containing the 
-unintall script by running
-
-		cd $HOME/cmdtypist/uninstall/
-
-finally, run
-
-		./uninstall
-
-to completely remove cmdtypist and associated files.
