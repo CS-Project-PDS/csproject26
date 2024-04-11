@@ -231,51 +231,51 @@ void lesson_position(long *read_this_length,long *point_to,int *my_choice)//sett
 			case 1:
 				*point_to=0;
 				if(read_myown_config()==1)
-					*read_this_length=25510;
+					*read_this_length=610;
 				break;
 			case 2:
-				*point_to=25512L;
-				*read_this_length=21660;
+				*point_to=612L;
+				*read_this_length=824;
 				break;
 			case 3:
-				*point_to=39326L;
-				*read_this_length=397417;
+				*point_to=1438L;
+				*read_this_length=816;
 				break;
 			case 4:
-				*point_to=444591L;
-				*read_this_length=11142;
+				*point_to=2652L;
+				*read_this_length=858;
 				break;
 			case 5:
-				*point_to=455733L;
-				*read_this_length=98588;
+				*point_to=3512L;
+				*read_this_length=668;
 				break;
 			case 6:
-				*point_to=554321L;
-				*read_this_length=19564;
+				*point_to=4182L;
+				*read_this_length=748;
 				break;
 			case 7: 
-				*point_to=573885L;
-				*read_this_length=79999;
+				*point_to=4932L;
+				*read_this_length=722;
 				break;
 			case 8:
-				*point_to=653884L;
-				*read_this_length=327523;
+				*point_to=5656L;
+				*read_this_length=672;
 				break;
 			case 9:
-				*point_to=981407L;
-				*read_this_length=208614;
+				*point_to=6330L;
+				*read_this_length=678;
 				break;
 			case 10:
-				*point_to=1190021L;
-				*read_this_length=400980;
+				*point_to=7110L;
+				*read_this_length=655;
 				break;
 			case 11:
-				*point_to=1591001L;
-				*read_this_length=625353;
+				*point_to=7667L;
+				*read_this_length=577;
 				break;
 			case 12:
-				*point_to=2216354L;
-				*read_this_length=1132581;
+				*point_to=8246;
+				*read_this_length=450;
 				break;
 			default:
 				*point_to=0;
