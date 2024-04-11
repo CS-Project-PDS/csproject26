@@ -2,20 +2,12 @@
 extern void name_display(void)
 {
 	system("clear");
-	printf("\n\n\n\t\t\t\t\t%s %s\n", "**********", "**********");
-    printf("\t\t\t\t\t%s %s\n", "**********", "**********");
-    printf("\t\t\t\t\t%s %s\n", "**", "**");
-    printf("\t\t\t\t\t%s %s\n", "**", "**");
-    printf("\t\t\t\t\t%s %s\n", "**", "**");
-    printf("\t\t\t\t\t%s %s\n", "**", "**");
-    printf("\t\t\t\t\t%s %s\n", "**", "**");
-    printf("\t\t\t\t\t%s %s\n", "**", "**");
-    printf("\t\t\t\t\t%s %s\n", "**********", "**********");
-    printf("\t\t\t\t\t%s %s\n\n\n", "**********", "**********");
 
     // Printing additional text aligned to the center
-    printf("\t\t%s\n", "Practice typing directly on your terminal!");
-    printf("\t\t\t\t\t\t%s\n", "Command Typist");
+    printf("\t\t\t\t\t%s\n", "Practice typing directly on your terminal!");
+    printf("\t\t\t\t\t%s\n", "--------------");
+    printf("\t\t\t\t\t%s\n", "COMMAND TYPIST");
+    printf("\t\t\t\t\t%s\n", "--------------");
     printf("\t\t\t\t\t%s\n", "CS Project PDS Group 26");
     sleepf(2);
 }
@@ -31,18 +23,18 @@ extern void lesson_list(void)
 		unsigned short n = guess(22,0);
 		system("clear");
 		puts("LESSONS: Use command <select 'lesson number'> to make a choice: "
-			"\n1:  Beginner lessons"
-			"\n2:  Shell programming"
-			"\n3:  Linux commands"
-			"\n4:  CMD commands"
-			"\n5:  Learning numbers"
-			"\n6:  Noslac's notes in computing"
-			"\n7:  History of Cameroon"
-			"\n8:  Getting acquanted to symbols"
-			"\n9:  Coding in c"
-			"\n10: Coding in java"
-			"\n11: Coding in python"
-			"\n12: Coding in c++"
+			"\n1:  Beginner lesson"
+			"\n2:  Mastering the home row"
+			"\n3:  Embracing proper posture"
+			"\n4:  Building Muscle Memory"
+			"\n5:  Exploring Beyond the Home Row"
+			"\n6:  Cultivating Typing Rhythm"
+			"\n7:  Practicing Mindful Typing"
+			"\n8:  The Typewriter's legacy"
+			"\n9:  The DVORAK keyboard"
+			"\n10: The Power of Practice"
+			"\n11: Coding in Python"
+			"\n12: Coding in C++"
 			"\n13: Random word typing"
 			"\n14: Capital letter training"
 			"\n15: Mixed lessons");

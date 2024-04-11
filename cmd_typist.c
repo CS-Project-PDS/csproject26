@@ -23,7 +23,6 @@ int main(int argc, char **argv)//argc=command line counter, argv=pointer to poin
 	name_display();
 	read_message_conf();//welcome message for first time users.
 	int lesson_choice=1;//global variable to hold the number corresponding to the chosen lesson.
-	//char commands[][10]={"0ls","1edituser","2myown","3--help","4man","5mkuser","6mkrand","7mkstd", "8select","9chblk","10sound","11--off","12--on","13cch","14reset","15timeset","16atv","17raw"};
 	char commands[][10]={"ls","edituser","myown","--help","man","mkuser","mkrand","mkstd", "select","chblk","sound","--off","--on","cch","reset","timeset","atv","raw"};
 
 	if(argc<1||argc>3)
@@ -135,17 +134,6 @@ int main(int argc, char **argv)//argc=command line counter, argv=pointer to poin
 				}
 			main_play(argc,&lesson_choice);
 		}
-		/*
-		else if((strcmp(argv[1],"sound")==0)&&strcmp(argv[2],"--on")==0)//modifying system sound
-		{
-			sound_config_write(1);
-			exit(EXIT_SUCCESS);
-		}
-		else if((strcmp(argv[1],"sound")==0)&&strcmp(argv[2],"--off")==0)
-		{
-			sound_config_write(0);
-			exit(EXIT_SUCCESS);
-		}*/
 		else if((strcmp(argv[1],commands[10])==0))//modifying system sound	
 		{
 			if(strcmp(argv[2],commands[12])==0)
@@ -170,21 +158,6 @@ int main(int argc, char **argv)//argc=command line counter, argv=pointer to poin
 			exit(EXIT_SUCCESS);
 		}	
 		break;
-
-		/*case 4://later update
-		if((strcmp(argv[1],"timeset")==0))//testing if user wants to play for specific amount of time.	
-		{
-			if(strcmp(argv[2],"--on")==0)
-			{
-				time_set=1;
-				main_play();
-			}
-			else
-			{
-				fprintf(stderr, "%s\n", "Argument 3 invalid or not recognized");
-				exit(EXIT_SUCCESS);
-			}
-		}*/
 		default:
 		  fprintf(stderr, "%s\n", "Argument is invalid, use \"help\" to find out more");
 		  break;
@@ -218,19 +191,6 @@ void select_lesson(int argc_cmd, int* user_choice)
 			fprintf(stderr, "%s\n", "Invalid number of arguments, consult \"cmdtypist --help\" for more");
 			exit(EXIT_FAILURE);
 		}
-			/*
-			if(argc_cmd==3)
-				if(strncmp(argv[2],"select",6)!=0||lesson_choice<1||lesson_choice>20)
-				{
-					fprintf(stderr, "%s\n", "Command not found\n");
-					if(strncmp(argv[2],"se",2))
-						fprintf(stderr, "%s\n", "Did you mean \"select\"");
-					else if(lesson_choice<1||lesson_choice>20)
-						fprintf(stderr, "%s %d\n", "No lesson entry for ",lesson_choice);
-					//else if(ch!=1)
-				        printf("%s", "Lesson number cannot contain symbols or alpha letters.\n");
-					exit(EXIT_FAILURE);
-				}*/
 		printf("\n");
 	}
 
