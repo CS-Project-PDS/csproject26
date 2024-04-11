@@ -2,21 +2,21 @@
 extern void name_display(void)
 {
 	system("clear");
-	printf("\n\n\n\t\t\t\t\t\t\t\t\t%s %s\n", "**********", "**********");
-    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**********", "**********");
-    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**", "**");
-    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**", "**");
-    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**", "**");
-    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**", "**");
-    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**", "**");
-    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**", "**");
-    printf("\t\t\t\t\t\t\t\t\t%s %s\n", "**********", "**********");
-    printf("\t\t\t\t\t\t\t\t\t%s %s\n\n\n", "**********", "**********");
+	printf("\n\n\n\t\t\t\t\t%s %s\n", "**********", "**********");
+    printf("\t\t\t\t\t%s %s\n", "**********", "**********");
+    printf("\t\t\t\t\t%s %s\n", "**", "**");
+    printf("\t\t\t\t\t%s %s\n", "**", "**");
+    printf("\t\t\t\t\t%s %s\n", "**", "**");
+    printf("\t\t\t\t\t%s %s\n", "**", "**");
+    printf("\t\t\t\t\t%s %s\n", "**", "**");
+    printf("\t\t\t\t\t%s %s\n", "**", "**");
+    printf("\t\t\t\t\t%s %s\n", "**********", "**********");
+    printf("\t\t\t\t\t%s %s\n\n\n", "**********", "**********");
 
     // Printing additional text aligned to the center
-    printf("\t\t\t\t\t\t\t\t\t\t%s\n", "Command Typist");
-    printf("\t\t\t\t\t\t%s\n", "Practice typing directly on your terminal!");
-    printf("\t\t\t\t\t\t\t\t\t%s\n", "CS Project PDS Group 26");
+    printf("\t\t%s\n", "Practice typing directly on your terminal!");
+    printf("\t\t\t\t\t\t%s\n", "Command Typist");
+    printf("\t\t\t\t\t%s\n", "CS Project PDS Group 26");
     sleepf(2);
 }
 
