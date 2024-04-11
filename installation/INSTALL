@@ -1,23 +1,18 @@
 INSTALLATION
 ------------
-Open a terminal and navigate to the directory containing cmdtypist and all 
-it's files. Run
+ Pop open a terminal and make your way to the directory where cmdtypist and all its files are chilling. Then, hit up that command line with
 
-					./install.sh 
+	./install.sh
 
-to install cmdtypist
+ This will get cmdtypist installed and ready to roll.
 
 RUNNING:
 -------
 
-If install.sh exited with a success message, then you have installed cmdtypist,
-you can then run the command 
+Once the installation process completes successfully, you'll receive a confirmation message. At that point, you can execute the following command:
 
 	cmdtypist argument1 argument2 argument3
 
-from any directory. argument1, argument2,... are valid cmdtypist arguments, 
-to know all valid arguments, run the cmdtypist help command or consult the help 
-file which comes with the program.
+You can execute the `cmdtypist` command from any location, specifying valid arguments like `argument1`, `argument2`, and so forth. To explore all acceptable arguments, either utilize the `cmdtypist help` command or refer to the program's accompanying help documentation.
 
-If running cmdtypist produces a "Fatal error: some files are missing" error,
-then you probably did not place all cmdtypist files in the same directory.
+In case the `cmdtypist` command triggers a "Fatal error: some files are missing" message, it likely indicates that not all essential `cmdtypist` files were placed in the same directory.

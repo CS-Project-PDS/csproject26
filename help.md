@@ -1,8 +1,5 @@
-CMD TYPIST HELP MENU
+HELP COMMANDS
 --------------------
-
-Cmdtypist Commands:
-------------------
 
 0) select "lesson-number":
    ---------------------
