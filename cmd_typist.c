@@ -274,7 +274,7 @@ void lesson_position(long *read_this_length,long *point_to,int *my_choice)//sett
 				*read_this_length=577;
 				break;
 			case 12:
-				*point_to=8246;
+				*point_to=8246L;
 				*read_this_length=450;
 				break;
 			default:
