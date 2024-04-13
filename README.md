@@ -1,6 +1,19 @@
 # COMMAND TYPER -- _Practice typing directly on your terminal!_
 
-#### By _GROUP 26 PDS_
+#### By _GROUP 26 Programming Data Structures, Spring 2024._
+
+### Main maintainer: Chaitanya Santosh Jha, Ujwal Raghu Aralapura
+### Team members:
+### Utpal Raj Ambastha            2301PH24
+### Mala Ram                      2301MC46
+### Chaitanya Santosh Jha         2301ME13
+### Priyanshu Priyam              2301ME41
+### Dhivyesh R                    2301MM22
+### Chirag Rana                   2302MC03
+### Naveen Reddy Vutukuri         2302VL04
+### Tejas Raju Panzade            2301EE34
+### Vaishnavi Reddy Konda Kindi   2301CS61
+### Ujwal Raghu Aralapura         2301EC33
 
 
 >Command Typer comes bundled with a good number of lessons for both programmers
@@ -32,7 +45,6 @@ standard mode.
 
 
 ### Command Line Features
-
 
 >The user can choose to type in random mode where a random block is each 
 session is chosen from selected lesson.
