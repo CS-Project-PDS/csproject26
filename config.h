@@ -194,45 +194,35 @@ extern void confirm_user_exist(void)
 }
 /*This function opens a binary file on which zero was initally written, it then checks if the zero is still there, 
 if yes then it is the first time the program is being opened  and then replaces the zero with 1*/
-extern void read_message_conf(void)//Function for first time message display
-{		
-    if(first_time()==0)//checking to see if its 0 that is found in the file.
-    {
-    	system("clear");
-    	FILE *fconf;
-    	printf("%s\n", "      ============================WELCOME!!!============================      \n");
+extern void read_message_conf(void) {
+    if (first_time() == 0) {
+        system("clear");
+        FILE *fconf;
+        printf("%s\n", "============================WELCOME!!!============================");
         printf("\n\t\t\t\tCOMMAND TYPIST\n\n Practice and improve your typing speed, no need to exit your terminal "
-		"\nVersion 1.01 developed for Programming and Data Structures project, Spring 2024 at IITP "
+               "\nVersion 1.01 developed for Programming and Data Structures project, Spring 2024 at IITP "
+               "\n\nContact chaitanya_2301me13@iitp.ac.in for any issues or doubts regarding this project.\n");
 
-	    "\n\nContact chaitanya_2301me13@iitp.ac.in 
-		for any issues or doubts regarding this project.\n");
+        printf("\nPress ENTER to continue");
+        while ((ch = getchar()) != '\n'); // Use getchar() to clear input buffer
 
-	    printf("%s\n", "ENTER to continue");
-	    while(ch=getchar()!='\n');//remains here until enter key.
-	    printf("\n%s", "First time tip:\n Enter \"select \"lesson-number\"\" when prompted for a command; lesson-number=valid lesson number"
-	    	"\n\n Have a look at the help menu? You can revisit it later using \"cmdtypist --help\" command [y/n]:");
-	     if(get_only_char()=='y')
-	    {
-	    	if((fconf=fopen("help.md","r"))==NULL)
-	    		fprintf(stderr, "%s\n", "Error: Unable to find help menu");
-	    	else
-	    	{
-	    		printf("\n\n");
-	    		char ch;
-	    		while((ch=getc(fconf))!=EOF)
-	    			putchar(ch);
-	    	}
-	   		if(fclose(fconf)!=0)
-		    {
-		    	fprintf(stderr, "%s\n", "Fatal Error, license file is corrupted\n");
-		    	exit(2);
-		    }
-	    }
-	    printf("\n%s\n", "ENTER to continue");
-	    while(ch=getchar()!='\n');//remains here until enter key.	    
-    }   
+        printf("\nFirst time tip:\n Enter \"select lesson-number\" when prompted for a command; lesson-number=valid lesson number"
+               "\n\n Have a look at the help menu? You can revisit it later using \"cmdtypist --help\" command [y/n]: ");
+        if (get_only_char() == 'y') {
+            if ((fconf = fopen("help.md", "r")) == NULL) {
+                fprintf(stderr, "Error: Unable to find help menu\n");
+            } else {
+                printf("\n\n");
+                while ((ch = getc(fconf)) != EOF)
+                    putchar(ch);
+                printf("\n");
+                fclose(fconf);
+            }
+        }
+        printf("\nPress ENTER to continue");
+        while ((ch = getchar()) != '\n'); // Use getchar() to clear input buffer
+    }
 }
-
 
 extern void waiting(char *wait_style)//style in waiting for input.
 	{
