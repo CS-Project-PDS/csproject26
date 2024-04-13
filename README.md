@@ -1,4 +1,5 @@
-# COMMAND TYPER -- _Practice typing directly on your terminal!_
+# COMMAND TYPER 
+_Practice typing directly on your terminal!_
 
 #### By _GROUP 26 Programming Data Structures, Spring 2024._
 
