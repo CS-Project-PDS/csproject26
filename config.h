@@ -199,7 +199,7 @@ extern void read_message_conf(void) {
         system("clear");
         FILE *fconf;
         printf("%s\n", "============================WELCOME!!!============================");
-        printf("\n\t\t\t\tCOMMAND TYPIST\n\n Practice and improve your typing speed, no need to exit your terminal "
+        printf("\n\t\t\tCOMMAND TYPIST\n\nPractice and improve your typing speed, no need to exit your terminal "
                "\nVersion 1.01 developed for Programming and Data Structures project, Spring 2024 at IITP "
                "\n\nContact chaitanya_2301me13@iitp.ac.in for any issues or doubts regarding this project.\n");
 
