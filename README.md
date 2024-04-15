@@ -13,7 +13,7 @@
 - Utpal Raj Ambastha 2301PH24 
 - Mala Ram 2301MC46 
 - Chaitanya Santosh Jha 2301ME13 
-- Priyanshu Priyam 2301ME41 ⚙
+- Priyanshu Priyam 2301ME41
 - Dhivyesh R 2301MM22 
 - Chirag Rana 2302MC03 
 - Naveen Reddy Vutukuri 2302VL04 
