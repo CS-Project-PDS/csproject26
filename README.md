@@ -10,7 +10,7 @@
 
 #### Team members:
 
-- Utpal Raj Ambastha ^2301PH24^
+- Utpal Raj Ambastha 2301PH24
 - Mala Ram 2301MC46 
 - Chaitanya Santosh Jha 2301ME13 
 - Priyanshu Priyam 2301ME41
