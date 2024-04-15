@@ -21,6 +21,7 @@
 - `Vaishnavi Reddy Konda Kindi` 2301CS61 
 - `Ujwal Raghu Aralapura` 2301EC33 
 
+> [!NOTE]
 > Command Typer comes bundled with a good number of lessons for both programmers and non-programmers. The non-programmer lessons help train the user on basic typing techniques, and the programmer lessons help both programmers and non-programmers to become better at typing. 🎯
 
 ### Key Features
