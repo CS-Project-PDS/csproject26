@@ -2,8 +2,10 @@
 
 ## _Practice typing directly on your terminal!_ 💻⚡
 
-### Group 26, IITP 
-### `Programming Data Structures, Spring 2024` 📚
+```
+ Group 26, IITP 
+ Programming Data Structures, Spring 2024 📚
+```
 
 #### Main maintainers: 
 - `Chaitanya Santosh Jha` 👨‍💻
