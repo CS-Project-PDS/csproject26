@@ -6,7 +6,7 @@
 
 #### Main maintainers: 
 - Chaitanya Santosh Jha 👨‍💻
-- Ujwal Raghu Aralapura 👩‍💻
+- Ujwal Raghu Aralapura 👨‍💻
 
 #### Team members:
 
